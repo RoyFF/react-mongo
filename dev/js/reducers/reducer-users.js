@@ -10,7 +10,7 @@ export default function () {
             first: "Bucky",
             last: "Roberts",
             age: 71,
-            description: "Bucky is a React developer and YouTuber",
+            description: "Bucky is a React developer",
             thumbnail: "http://i.imgur.com/7yUvePI.jpg",
             email: "asdasdasd@asdasdad"
         },
