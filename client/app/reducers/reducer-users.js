@@ -3,8 +3,8 @@
  * You need to return something, so if there are no users then just return an empty array
  * */
 
-export default function () {
-    return [
+export default function (state = [], action) {
+    state = [
         {
             id: 1,
             first: "Bucky",
@@ -32,5 +32,12 @@ export default function () {
             thumbnail: "http://i.imgur.com/4EMtxHB.png",
             email: "asdasdasda@adadada"
         }
-    ]
+    ];
+    switch (action.type) {
+        case 'USER/ADD_USER':
+            return [...state,action.payload];
+            break;
+        default:
+            return state
+    }
 }
