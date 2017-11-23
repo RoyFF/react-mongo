@@ -1,33 +1,33 @@
-![](http://i.imgur.com/DUiL9yn.png)
+# MERN-boilerplate
 
-# React/Sass/Redux Boilerplate
+This is a boilerplate project using the following technologies:
+- [React](https://facebook.github.io/react/) and [React Router](https://reacttraining.com/react-router/) for the frontend
+- [Express](http://expressjs.com/) and [Mongoose](http://mongoosejs.com/) for the backend
+- [Sass](http://sass-lang.com/) for styles (using the SCSS syntax)
+- [Webpack](https://webpack.github.io/) for compilation
 
-Boilerplate and guide for a React/Sass/Redux build.
 
-## Getting Started
+## Requirements
 
-To get started, first install all the necessary dependencies.
-```
-> npm install
-```
+- [Node.js](https://nodejs.org/en/) 6+
 
-Run an initial webpack build
-```
-> webpack
-```
-
-Start the development server (changes will now update live in browser)
-```
-> npm run start
+```shell
+npm install
 ```
 
-To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
 
-## Links
+## Running
 
-- [Donate](https://www.patreon.com/thenewboston)
-- [thenewboston.com](https://thenewboston.com/)
-- [Facebook](https://www.facebook.com/TheNewBoston-464114846956315/)
-- [Twitter](https://twitter.com/bucky_roberts)
-- [Google+](https://plus.google.com/+BuckyRoberts)
-- [reddit](https://www.reddit.com/r/thenewboston/)
+Make sure to add a `config.js` file in the `config` folder. See the example there for more details.
+
+Production mode:
+
+```shell
+npm start
+```
+
+Development (Webpack dev server) mode:
+
+```shell
+npm run start:dev
+```
