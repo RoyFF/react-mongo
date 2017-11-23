@@ -15,7 +15,6 @@ import {
 import App from './components/App/App';
 import NotFound from './components/App/NotFound';
 import Home from './components/Home/Home';
-import HelloWorld from './components/HelloWorld/HelloWorld';
 import UsersList from './components/UserList/user-list';
 import AddUser from './components/AddUsers/Adduser';
 import './styles/styles.scss';
